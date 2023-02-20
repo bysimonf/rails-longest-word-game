@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
